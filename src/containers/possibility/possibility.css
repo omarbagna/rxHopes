@@ -1,0 +1,84 @@
+.gpt3__possibility {
+	display: flex;
+}
+
+.gpt3__possibility-image {
+	flex: 1;
+	display: flex;
+	justify-self: flex-start;
+	align-items: center;
+
+	margin-right: 2rem;
+}
+
+.gpt3__possibility-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.gpt3__possibility-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.gpt3__possibility-content h1 {
+	font-weight: 800;
+	font-size: 34px;
+	line-height: 45px;
+	margin: 0.5rem 0;
+}
+
+.gpt3__possibility-content p {
+	margin-bottom: 2rem;
+	font-size: 16px;
+	line-height: 30px;
+	color: var(--color-text);
+}
+
+.gpt3__possibility-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.gpt3__possibility-btn button {
+	background: var(--color-subtext);
+	color: #fff;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0.5rem 1.5rem;
+	margin-bottom: 1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+}
+
+.gpt3__possibility-btn_ios button {
+	background: #000;
+}
+
+.gpt3__possibility-btn button:hover {
+	background: #fff;
+	color: var(--color-subtext);
+	box-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 950px) {
+	.gpt3__possibility {
+		flex-direction: column;
+	}
+
+	.gpt3__possibility-image {
+		margin: 2rem 0;
+	}
+
+	.gpt3__possibility-content {
+		margin-top: 2rem;
+	}
+}

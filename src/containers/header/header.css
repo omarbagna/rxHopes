@@ -1,0 +1,129 @@
+.gpt3__header {
+	display: flex;
+}
+
+.gpt3__header-content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+
+	margin-left: 5rem;
+}
+
+.gpt3__header-content h1 {
+	font-family: var(--font-title);
+	font-weight: 900;
+	font-size: 110px;
+	line-height: 105px;
+	letter-spacing: -0.02em;
+}
+
+.gpt3__header-content p {
+	font-family: var(--font-body);
+	font-size: 20px;
+	line-height: 27px;
+	color: rgba(255, 255, 255, 0.7);
+
+	margin-top: 1.5rem;
+}
+
+.gpt3__header-content__button {
+	width: 100%;
+	margin: 2rem 0 1rem;
+
+	display: flex;
+}
+
+.gpt3__header-content__button a {
+	width: 100%;
+}
+
+.gpt3__header-content__button button {
+	width: 100%;
+	min-height: 50px;
+	background: #3599ff;
+	border-radius: 10px;
+
+	font-family: var(--font-body);
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	padding: 0 1rem;
+	border: none;
+	transition: 0.3s ease-in;
+}
+
+.gpt3__header-content__button button:hover {
+	background: #fff;
+	color: #3599ff;
+	box-shadow: var(--shadow);
+}
+
+.gpt3__header-image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gpt3__header-image img {
+	width: 100%;
+	height: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+	.gpt3__header {
+		flex-direction: column-reverse;
+	}
+
+	.gpt3__header-content {
+		margin: 0 0 3rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.gpt3__header {
+		flex-direction: column-reverse;
+		gap: 5rem;
+	}
+
+	.gpt3__header h1 {
+		font-size: 48px;
+		line-height: 60px;
+	}
+
+	.gpt3__header p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.gpt3__header-content__input input,
+	.gpt3__header-content__input button {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.gpt3__header h1 {
+		font-size: 36px;
+		line-height: 48px;
+	}
+
+	.gpt3__header p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.gpt3__header-content__input input,
+	.gpt3__header-content__input button {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
