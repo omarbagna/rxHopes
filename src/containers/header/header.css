@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 700px) {
 	.gpt3__header {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		gap: 5rem;
 	}
 
