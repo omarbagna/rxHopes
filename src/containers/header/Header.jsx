@@ -18,7 +18,9 @@ const Header = () => {
 
 				<div className="gpt3__header-content__button">
 					<a href="google.com" target="_blank" rel="noreferrer">
-						<button type="button">Get Started</button>
+						<a href="#home">
+							<button type="button">Get Started</button>
+						</a>
 					</a>
 				</div>
 			</div>

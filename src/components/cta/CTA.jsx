@@ -10,7 +10,9 @@ const CTA = () => {
 			</div>
 			<div className="gpt3__cta-btn">
 				<a href="google.com" target="_blank" rel="noreferrer">
-					<button type="button">Register Now</button>
+					<a href="#home">
+						<button type="button">Register Now</button>
+					</a>
 				</a>
 			</div>
 		</div>

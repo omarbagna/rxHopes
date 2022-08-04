@@ -31,7 +31,7 @@ const Footer = () => {
 							Home
 						</a>
 					</p>
-					<p>
+					{/*<p>
 						<a href="#about" rel="noreferrer">
 							About
 						</a>
@@ -40,7 +40,7 @@ const Footer = () => {
 						<a href="#benefits" rel="noreferrer">
 							Benefits
 						</a>
-					</p>
+	</p>*/}
 					<p>
 						<a href="#joinUs" rel="noreferrer">
 							Join Us
